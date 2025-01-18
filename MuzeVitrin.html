@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Vitale Vitrin, Müze ve Vitrin Tasarımları">
+    <meta name="keywords" content="Müze ve Vitrin Tasarımları, Depolama Sistemleri, Vitrin Tasarımları, Müze Vitrinleri, Masa Tipi Vitrin, Tablo Saklama Üniteleri">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Oğuz Bulun">
+    <title>Vitale Vitrin - Müze ve Vitrin Tasarımları</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="icon" href="asset/logo.png" type="image/x-icon" />
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .btn-bd-primary {
+        --bd-violet-bg: #712cf9;
+        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+        --bs-btn-font-weight: 600;
+        --bs-btn-color: var(--bs-white);
+        --bs-btn-bg: var(--bd-violet-bg);
+        --bs-btn-border-color: var(--bd-violet-bg);
+        --bs-btn-hover-color: var(--bs-white);
+        --bs-btn-hover-bg: #6528e0;
+        --bs-btn-hover-border-color: #6528e0;
+        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+        --bs-btn-active-color: var(--bs-btn-hover-color);
+        --bs-btn-active-bg: #5a23c8;
+        --bs-btn-active-border-color: #5a23c8;
+      }
+
+      .bd-mode-toggle {
+        z-index: 1500;
+      }
+
+      .bd-mode-toggle .dropdown-menu .active .bi {
+        display: block !important;
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<header data-bs-theme="dark">
+
+    <nav class="navbar navbar-expand-md fixed-top" style="background-color:  #3f3f3f">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="Anasayfa.html">
+       <img src="asset/logo3.png" alt="Vitale Vitrin" width="90" height="90" style="margin-left: 20px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" style="font-weight: bold" aria-current="page" href="Anasayfa.html">  &nbsp; Anasayfa  &nbsp;</a>
+          </li> 
+             <li class="nav-item">
+            <a class="nav-link active" style="font-weight: bold" aria-current="page" href="#">  &nbsp; Hakkımızda  &nbsp;</a>
+          </li> 
+          <li class="nav-item">
+            <a class="nav-link active" style="font-weight: bold" aria-current="page" href="#"> &nbsp; Projeler  &nbsp;</a>
+          </li>
+            <li class="nav-item">
+            <a class="nav-link active" style="font-weight: bold" aria-current="page" href="#"> &nbsp; Müze Vitrin Tipleri  &nbsp;</a>
+          </li>
+            <li class="nav-item">
+            <a class="nav-link active" style="font-weight: bold" aria-current="page" href="DepolamaSistemleri.html"> &nbsp; Depolama Sistemleri  &nbsp;</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" style="font-weight: bold" aria-current="page" href="Iletisim.html"> &nbsp; İletişim  &nbsp;</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link active" style="font-weight: bold" aria-current="page" href="#"> &nbsp;   &nbsp;</a>
+          </li>
+         <li class="nav-item">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAMAAABBPP0LAAAARVBMVEX+AAD3AADwAAD+fHz9cHH7ZGT9WVn6UFDpAAD9oKD5Q0P5OTn2MzP1Kir7ubr65ub1Gxv69PTzDw/kAAD319ffAAD4iooXHQ3FAAAAYklEQVR4AT3HhW0EQRQD0Oc/KG3/dQYEYTg2O+4IQbTHydWt0fw2Sfz8Fuw51+U3On7a6/pc/as1UZLDyuq13lWOwpdPn3+v7XJiDD3DR1N87Qr5WXX9zyQ9opEIOwkmDgr/ZXASmpFRqe0AAAAASUVORK5CYII=" alt="Vitale Vitrin Türkçe" width="16" height="11" style="width: 16px; height: 11px; margin-top: 12px;">&nbsp;&nbsp;
+          </li>                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <li class="nav-item" style="margin-top: 7px">
+              <i class="bi-instagram" style="color:white; width: 8px; height: 8px;"></i>&nbsp;
+              <i class="bi-linkedin" style="color:white; width: 8px; height: 8px;"></i>&nbsp;
+              <a href="https://wa.me/05449190318" target="_blank"><i class="bi-whatsapp" style="color:white; width: 8px; height: 8px;"></i></a>&nbsp; 
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+     
+</header>
+<main>
+
+  <div class="image-container" style=" position: relative; width: 100%; height: 50vh; overflow: hidden; margin-top:-50px;">
+     <img src="asset/mainImage.jpeg" class="img-fluid" style="  width: 100%;  height: 100%; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 20px rgba(50, 50, 50, 50); " alt="Vitale Vitrin">
+      <h1 class="text-center" style="font-family: 'Roboto', sans-serif; position: absolute;
+            top: 55%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 2em;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 50px;                          
+            color: #fff;
+            width: 100%;">Müze Vitrin Tipleri</h1>
+  </div>
+ <br>
+  <div class="container marketing">
+    <hr>
+<br>
+    <div class="row featurette  d-flex align-items-center">
+      <div class="col-md-7">
+        <h2>Duvar Tipi Vitrin </h2>
+        <p class="lead">Duvar tipi vitrinler, genellikle galerilerin ortasında ya da duvarlara yerleştirilerek kullanılır. Bu vitrinler, mankenlerden heykellere, müzik aletlerinden mobilyalara kadar geniş bir yelpazede eserlerin sergilenmesi için mükemmeldir. Farklı boyut ve şekillerde tasarlanabilen bu vitrinler, uzun veya kısa tabanlarla, ayaklı ya da ayaksız seçenekler sunar. Ayrıca, çeşitli eserleri sergilemeye uygun esnek raflar ve aydınlatma çözümleriyle donatılabilir.</p>
+      </div>
+      <div class="col-md-5">
+           <img src="asset/duvartipivitrin.jpeg" alt="Duvar Tipi Vitrin" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500">
+           <img src="asset/duvartipivitrin2.jpeg" alt="Duvar Tipi Vitrin" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette  d-flex align-items-center">
+      <div class="col-md-7 order-md-2">
+          <h2>Masa Tipi Vitrin </h2>
+        <p class="lead">Masa vitrinleri, sergilenen eserlerin üstten gözlemlenmesine olanak tanır. Etkili aydınlatma ve ürünlere daha yakın bir şekilde bakabilme imkânı, küçük detayların daha net bir şekilde incelenmesini sağlar. Bu tür vitrinler, kullanım açısından oldukça pratiktir. Ayrıca, motorlu ve amortisörlü açılım seçeneklerine de sahiptir.
+          </p>
+      </div>
+      <div class="col-md-5 order-md-1">
+         <img src="asset/masavitrin.jpeg" alt="Masa Tipi Vitrin" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette  d-flex align-items-center">
+      <div class="col-md-7">
+        <h2>Kule Tipi Vitrin </h2>
+        <p class="lead"> Genellikle dört ya da beş camlı olarak tasarlanan bu bağımsız üniteler, sergilenen eserlerin her açıdan rahatça görülebilmesi için mükemmel bir seçenektir. Bu tür vitrinler, farklı donanım seçenekleri, kolay erişim imkânları, yüksek güvenlik önlemleri ve eserlerin sağlıklı bir şekilde korunmasını sağlayan gerekli koşulları sunar.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="asset/kulevitrin.jpeg" alt="Kule Tipi Vitrin" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette  d-flex align-items-center">
+      <div class="col-md-7 order-md-2">
+          <h2 >Dairesel Vitrin </h2>
+        <p class="lead">Dairesel vitrinler, sergilenen eserlerin 360 derece ile çevrelenmesiyle ürünlere daha yakın bir şekilde bakabilme imkânı, küçük detayların daha net bir şekilde incelenmesini sağlar. Bu tür vitrinler, kullanım açısından oldukça pratiktir.
+          </p>
+      </div>
+      <div class="col-md-5 order-md-1">
+         <img src="asset/daireselvitrin.jpeg" alt="Dairesel Vitrin" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+      
+      <div class="row featurette  d-flex align-items-center">
+      <div class="col-md-7">
+        <h2>Orta Tip Vitrin </h2>
+        <p class="lead">  Orta tip vitrinler, görsel olarak dikkat çekici olmalarının yanı sıra, müşterilerin rahatça görebileceği ve inceleyebileceği şekilde düzenlenmişlerdir. Orta tip vitrinler, genellikle yüksekliği ortalama seviyelerde olan ve ürünlerin sergilenmesini optimize eden tasarımlara sahiptir.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="asset/ortatipvitrin.jpeg" alt="Orta Tip Vitrin" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+      
+      <div class="row featurette  d-flex align-items-center">
+      <div class="col-md-7 order-md-2">
+          <h2>Askı Vitrin </h2>
+        <p class="lead">Askı vitrinler, ürünlerin açıkça görülebilmesini sağlarken, yerden tasarruf sağlar ve düzenli bir sergileme sunar. Ancak, açık tasarımları nedeniyle ürünlerin korunması ve düzeni açısından dikkatli yerleştirilmesi gereklidir.
+          </p>
+      </div>
+      <div class="col-md-5 order-md-1">
+         <img src="asset/askivitrin.jpeg" alt="Askı Tipi Vitrin" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+      
+      <div class="row featurette  d-flex align-items-center">
+      <div class="col-md-7">
+        <h2>Gömü Tip Vitrin </h2>
+        <p class="lead"> Gömü tip vitrinler, genellikle ürünlerin yer altına yerleştirildiği ve sadece üst kısmının görülebileceği şekilde tasarlanmış vitrinlerdir. Bu vitrinler, özellikle değerli veya hassas ürünlerin güvenli bir şekilde sergilenmesi amacıyla kullanılır. Şeffaf cam paneller sayesinde ürünler rahatça görülebilirken, aynı zamanda dış etkenlerden korunmuş olur.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="asset/gomuvitrin.jpeg" alt="Gömü Tipi Vitrin" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+</main>
+       <div class="container-fluid" style="background-color: #3f3f3f; padding-left: 30px; padding-top: 30px; padding-right: 30px; margin-bottom: -50px">
+     <div class="col-md-12">
+     <div class="row d-flex justify-content-center" align="left">
+       
+      <div class="col-md-3"   style="color:white;text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);">
+        <h5 style="font-weight:bold; text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);">Hizmetler</h5>
+        <ul class="nav flex-column">
+          <li>Müze Vitrin Tasarımları</li>
+          <li>Tablo Saklama Üniteleri</li>
+          <li>Kompakt Depolama Üniteleri</li>
+          <li>Sabit Depolama Üniteleri</li>
+          <li>Raylı Saklama Üniteleri</li>
+          <li>Çekmeceli Depolama Üniteleri</li>
+          <li> &nbsp;</li>
+        </ul>
+      </div>
+
+       <div class="col-md-3"  style="color:white;text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);">
+        <h5 style="font-weight:bold;text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);">Bize Ulaşın</h5>
+        <ul class="nav flex-column">
+          <li>Haramidere San. Sit</li>
+          <li>No:328 A Blok,</li>
+          <li>34524 Beylikdüzü / İstanbul</li>
+          <li>0544 919 03 18</li>
+          <li>info@vitalevitrin.com.tr</li>
+            <li> &nbsp;</li>
+        </ul>
+      </div>
+
+      <div class="col-md-3" style="text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);">
+        <h5  style="color:white; font-weight:bold;text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);">Sosyal Medya</h5>
+        <ul class="nav flex-column">
+          <li> &nbsp;</li>
+
+          <li   style="color:white; ">
+              <h3 ><i class="bi-facebook" ></i>&nbsp;
+             <i class="bi-twitter" ></i>&nbsp;
+              <i class="bi-instagram" ></i>&nbsp;
+              <a href="https://wa.me/05449190318" target="_blank"><i class="bi-whatsapp" style="color:white;"></i></a>&nbsp;
+              <i class="bi-linkedin"></i></h3>&nbsp;
+          </li>
+          <li  style="color:white;">  &copy; 2025 Tüm Hakları Saklıdır.</li>
+          <li></li>
+        </ul>
+      </div>
+    </div>
+</div>
+</div>
+      <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+      <script type="text/javascript">
+      $(window).scroll(function() {
+           if ($(window).scrollTop() >= 0) {
+              $('.navbar').css('background', '#3f3f3f');
+           } else {
+              $('.navbar').css('background', '#3f3f3f');
+           }
+        });
+      </script>
+      
+    </body>
+</html>
